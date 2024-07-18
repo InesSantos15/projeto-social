@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -37,4 +38,25 @@ iframe#tela{
     left: 23px;
     height: 471px;
     width: 265px;
+}
+section#redes-sociais{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px #0000009c;
+}
+section#redes-sociais img:hover{
+    border: 2px solid #ffffff9a;
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s, border 0.1s;
+    box-shadow: 5px 5px 8px #0000009c;
+
+    
+    
+
 }
